@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  background-color: white;
+  font-family: 'Nunito Sans';
+}
+
+.login form {
+  margin-left: 113px;
+  margin-right: 112px;
+}
+
+.login form .brand {
+  color: #3d4196;
+}
+
+.login form .title h1 {
+  color: #3d4196;
+}
+
+.login form .title p {
+  color: #828282;
+}
+
+.login form .label {
+  color: #3d4196;
+}
+
+.login form input {
+  background-color: #f5f5f8;
+  color: #9c9ec7;
+}
+
+.login form .btn-login {
+  background-color: #3d4196;
+}
+
+.detail-customer {
+  background-color: #f5f5f8;
+}
+
+.detail-customer .sidebar .sidebar-brand {
+  margin-top: 19px;
+  margin-bottom: 43px;
+}
+
+.detail-customer .top-bar {
+  margin-top: 28px;
+}
+
+.detail-customer .title-navigation {
+  margin-top: 24px;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,68 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+$blue: #3d4196;
+$blue1: #6265a8;
+$blue2: #9c9ec7;
+$blue3: #c4c6de;
+$blue4: #f5f5f8;
+$yellow: #f5f5f8;
+$orangeHalf: #fccd9c;
+$greenFull: #02af6c;
+$greenHalf: #9adfca;
+$redFull: #bf2f30;
+$redHalf: #e5acac;
+
+body {
+  background-color: white;
+  font-family: 'Nunito Sans';
+}
+
+.login {
+  form {
+    margin-left: 113px;
+    margin-right: 112px;
+    .brand {
+      color: #3d4196;
+    }
+    .title {
+      h1 {
+        color: #3d4196;
+      }
+      p {
+        color: #828282;
+      }
+    }
+    .label {
+      color: #3d4196;
+    }
+    input {
+      background-color: #f5f5f8;
+      color: #9c9ec7;
+    }
+    .btn-login {
+      background-color: #3d4196;
+    }
+  }
+}
+
+.detail-customer {
+  background-color: $blue4;
+  .sidebar {
+    .sidebar-brand {
+      margin-top: 19px;
+      margin-bottom: 43px;
+    }
+  }
+  .top-bar {
+    margin-top: 28px;
+  }
+  .title-navigation {
+    margin-top: 24px;
+  }
+  .menu-navigation {
+  }
+}
