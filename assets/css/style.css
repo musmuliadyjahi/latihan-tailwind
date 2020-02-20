@@ -45,11 +45,55 @@ body {
   margin-bottom: 43px;
 }
 
-.detail-customer .top-bar {
-  margin-top: 28px;
+.detail-customer .sidebar .navigation h1 {
+  margin-top: 24px;
+  color: #9c9ec7;
 }
 
-.detail-customer .title-navigation {
-  margin-top: 24px;
+.detail-customer .sidebar .navigation .menu-navigation .item-nav {
+  width: 215px;
+  height: 52px;
+}
+
+.detail-customer .sidebar .navigation .menu-navigation .item-nav a {
+  color: #9c9ec7;
+}
+
+.detail-customer .sidebar .navigation .menu-navigation .item-nav-active {
+  width: 215px;
+  height: 52px;
+}
+
+.detail-customer .sidebar .navigation .menu-navigation .item-nav-active a {
+  color: #3d4196;
+}
+
+.detail-customer .header {
+  width: 1225px;
+  height: 80px;
+}
+
+.detail-customer .header .navbar-header {
+  margin-top: 34px;
+}
+
+.detail-customer .header .navbar-header .search {
+  margin-left: 43px;
+}
+
+.detail-customer .header .navbar-header .search h1 {
+  margin-left: 9.25px;
+}
+
+.detail-customer .header .navbar-header .profile {
+  margin-left: 821px;
+}
+
+.detail-customer .header .navbar-header .profile .text h1 {
+  color: #3d4196;
+}
+
+.detail-customer .header .navbar-header .profile .text p {
+  color: #9c9ec7;
 }
 /*# sourceMappingURL=style.css.map */

@@ -15,6 +15,22 @@ $greenFull: #02af6c;
 $greenHalf: #9adfca;
 $redFull: #bf2f30;
 $redHalf: #e5acac;
+$gray3: #828282;
+
+@mixin item-nav {
+  width: 215px;
+  height: 52px;
+}
+
+@mixin navbar {
+  width: 1225px;
+  height: 80px;
+}
+
+@mixin sedibar-brand {
+  margin-top: 19px;
+  margin-bottom: 43px;
+}
 
 body {
   background-color: white;
@@ -26,25 +42,25 @@ body {
     margin-left: 113px;
     margin-right: 112px;
     .brand {
-      color: #3d4196;
+      color: $blue;
     }
     .title {
       h1 {
-        color: #3d4196;
+        color: $blue;
       }
       p {
-        color: #828282;
+        color: $gray3;
       }
     }
     .label {
-      color: #3d4196;
+      color: $blue;
     }
     input {
-      background-color: #f5f5f8;
-      color: #9c9ec7;
+      background-color: $blue4;
+      color: $blue2;
     }
     .btn-login {
-      background-color: #3d4196;
+      background-color: $blue;
     }
   }
 }
@@ -53,16 +69,50 @@ body {
   background-color: $blue4;
   .sidebar {
     .sidebar-brand {
-      margin-top: 19px;
-      margin-bottom: 43px;
+      @include sedibar-brand;
+    }
+    .navigation {
+      h1 {
+        margin-top: 24px;
+        color: $blue2;
+      }
+      .menu-navigation {
+        .item-nav {
+          @include item-nav;
+          a {
+            color: $blue2;
+          }
+        }
+        .item-nav-active {
+          @include item-nav;
+          a {
+            color: $blue;
+          }
+        }
+      }
     }
   }
-  .top-bar {
-    margin-top: 28px;
-  }
-  .title-navigation {
-    margin-top: 24px;
-  }
-  .menu-navigation {
+  .header {
+    @include navbar;
+    .navbar-header {
+      margin-top: 34px;
+      .search {
+        margin-left: 43px;
+        h1 {
+          margin-left: 9.25px;
+        }
+      }
+      .profile {
+        margin-left: 821px;
+        .text {
+          h1 {
+            color: $blue;
+          }
+          p {
+            color: $blue2;
+          }
+        }
+      }
+    }
   }
 }
